@@ -8,7 +8,7 @@
 4. Datorita faptului ca in general liniile vor contine in medie sub 5 cuvinte in peste 93% din cazuri vom aborda problema ca un task de clasificare
 5. Vom lua toate liniile la o deviatie standard ca fiind posibile nume de produse si vom face inferenta cu T5 pentru adnotare
    - Liniile mai lungi vor fi considerate noise.
-6. Observam ca modelul care face 0 shot classification pe inferenta are recall destul de mare.
+6. Observam ca modelul care face 0 shot classification pe inferenta are dedtul de multe false positives.
    - Propunem sa antrenam un model de clasificare care are precission mare
 7. Astfel vom avea 2 faze: 
    - Prima care extrage posibile nume de produse folosind inferenta cu T5 (aceasta va da destule false positives)
